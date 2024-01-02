@@ -13,7 +13,7 @@
 
 <h1><span>spli</span><span>tter</span></h1>
 
-<div class="main-container">
+<main class="main-container">
   <form action="">
     <fieldset>
       <legend>Bill</legend>
@@ -32,26 +32,26 @@
       <legend>Select Tip %</legend>
 
       <div id="select-tip">
-        <button type="button">
-          5%
+        <div class="button">
+          <label for="5-percent">5%</label>
           <input type="radio" name="select-tip" value="5" id="5-percent" />
-        </button>
-        <button type="button">
-          10%
+        </div>
+        <div class="button">
+          <label for="10-percent">10%</label>
           <input type="radio" name="select-tip" value="10" id="10-percent" />
-        </button>
-        <button type="button">
-          15%
+        </div>
+        <div class="button">
+          <label for="15-percent">15%</label>
           <input type="radio" name="select-tip" value="15" id="15-percent" />
-        </button>
-        <button type="button">
-          25%
+        </div>
+        <div class="button">
+          <label for="25-percent">25%</label>
           <input type="radio" name="select-tip" value="25" id="25-percent" />
-        </button>
-        <button type="button">
-          50%
+        </div>
+        <div class="button">
+          <label for="50-percent">50%</label>
           <input type="radio" name="select-tip" value="50" id="50-percent" />
-        </button>
+        </div>
         <input type="text" name="select-tip" placeholder="Custom" id="custom-percent" />
       </div>
     </fieldset>
@@ -95,7 +95,7 @@
     </div>
     <button id="reset" type="reset">reset</button>
   </div>
-</div>
+</main>
 
 <script src="js/index.js" type="module"></script>
 
